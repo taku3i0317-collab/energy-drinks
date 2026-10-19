@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "energy-drinks",
+	"version": "${version}",
+	"name": "Energy Drinks",
+	"description": "Adds energy drinks that boost your speed and mining. Crafted with a glass bottle, sugar, and cocoa beans!",
+	"authors": [
+		"taku3"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/energy-drinks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.energy.drinks.EnergyDrinks"
+		],
+		"client": [
+			"com.energy.drinks.client.EnergyDrinksClient"
+		]
+	},
+	"mixins": [
+		"energy-drinks.mixins.json",
+		{
+			"config": "energy-drinks.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
