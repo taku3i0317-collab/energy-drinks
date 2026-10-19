@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "energy-drinks:item/energy_drink"
+    "model": "takus-energy:item/energy_drink"
   }
 }

@@ -15,7 +15,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"energy-drinks" {
+		"takus-energy" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

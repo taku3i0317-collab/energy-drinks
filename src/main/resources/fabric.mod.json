@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "energy-drinks",
+	"id": "takus-energy",
 	"version": "${version}",
 	"name": "Energy Drinks",
 	"description": "Adds energy drinks that boost your speed and mining. Crafted with a glass bottle, sugar, and cocoa beans!",
@@ -9,7 +9,7 @@
 	],
 	"contact": {},
 	"license": "MIT",
-	"icon": "assets/energy-drinks/icon.png",
+	"icon": "assets/takus-energy/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -20,9 +20,9 @@
 		]
 	},
 	"mixins": [
-		"energy-drinks.mixins.json",
+		"takus-energy.mixins.json",
 		{
-			"config": "energy-drinks.client.mixins.json",
+			"config": "takus-energy.client.mixins.json",
 			"environment": "client"
 		}
 	],

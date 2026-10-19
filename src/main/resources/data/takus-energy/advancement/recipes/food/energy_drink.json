@@ -12,7 +12,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipes": ["energy-drinks:energy_drink"
+        "recipes": ["takus-energy:energy_drink"
       ]}
     }
   },
@@ -20,6 +20,6 @@
     ["has_sugar", "has_the_recipe"]
   ],
   "rewards": {
-    "recipes": ["energy-drinks:energy_drink"]
+    "recipes": ["takus-energy:energy_drink"]
   }
 }

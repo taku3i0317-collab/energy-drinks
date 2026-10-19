@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "energy-drinks:item/energy_drink"
+    "layer0": "takus-energy:item/energy_drink"
   }
 }
